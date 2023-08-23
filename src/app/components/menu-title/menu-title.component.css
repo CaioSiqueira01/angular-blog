@@ -1,12 +1,12 @@
-.menu-title-container {
+.menu-title__container {
     color: white;
 }
 
-.menu-title-container hr {
+.menu-title__container hr {
     margin: 20px auto 5px auto;
 }
 
-.menu-title-container h1 {
+.menu-title__container h1 {
     margin: 15px auto;
     font-size: 8.4375rem;
     font-family: 'segoe UI';
