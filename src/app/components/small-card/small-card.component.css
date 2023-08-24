@@ -19,3 +19,19 @@
 hr {
     margin-bottom: 10px;
 }
+
+@media screen and (min-width: 768px) {
+    .small-card__container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .small-card__photo img {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .small-card__title {
+        text-align: left;
+    }
+}

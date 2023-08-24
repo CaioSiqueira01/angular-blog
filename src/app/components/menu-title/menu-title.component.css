@@ -1,9 +1,11 @@
 .menu-title__container {
     color: white;
+    width: 100%;
 }
 
 .menu-title__container hr {
     margin: 20px auto 5px auto;
+    width: 100%;
 }
 
 .menu-title__container h1 {
@@ -12,4 +14,10 @@
     font-family: 'segoe UI';
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-title__container h1 {
+        font-size: 3rem;
+    }
 }

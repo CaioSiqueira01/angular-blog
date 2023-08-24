@@ -6,3 +6,14 @@
     margin-right: 20px;
     list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+    .menu-bar__container ul {
+        flex-direction: column;
+    }
+
+    .menu-bar__container ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
